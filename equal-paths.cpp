@@ -14,7 +14,7 @@ int height(Node * root) {
 }
 
 bool equalPaths(Node * root) {
-    if (root == nullptr) return false;
+    if (root == nullptr) return true;
 
     if (root->left && root->right) {
         int lh = height(root->left);
